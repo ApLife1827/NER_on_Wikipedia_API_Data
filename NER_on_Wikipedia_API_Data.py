@@ -25,6 +25,7 @@ def main():
     nlp = spacy.load("en_core_web_sm")
     menu = ['Wikipedia','URL'] 
     choice = streamlit.sidebar.selectbox('Menu',menu)
+    streamlit.sidebar.write("Made by: Avdhoot Patil")
     if choice == 'Wikipedia':
         streamlit.subheader('Wikipedia')
         raw_docx = streamlit.text_input('Enter the Topic','wikipedia') # User can enter topic of own choice
