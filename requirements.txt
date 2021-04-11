@@ -1,0 +1,8 @@
+wikipedia==1.4.0
+spacy_streamlit==1.0.0
+requests==2.25.0
+streamlit==0.80.0
+beautifulsoup4==4.9.3
+spacy
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.0.0/en_core_web_sm-3.0.0.tar.gz
+html5lib
